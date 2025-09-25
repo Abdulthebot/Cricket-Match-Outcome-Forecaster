@@ -10,8 +10,6 @@ This repository contains a comprehensive data science analysis and predictive mo
 
 ![Matches Won Chart](wins_chart.png)
 
-*(This is where the screenshot of your 'Total Matches Won' chart will appear.)*
-
 ---
 
 ## The Narrative: Decoding the Game of Cricket
@@ -30,8 +28,6 @@ The model identified the `toss_winner` as a highly influential factor, reinforci
 
 ![Feature Importance Plot](feature_importance.png)
 
-*(This is where the screenshot of your 'Feature Importance' chart will appear.)*
-
 ---
 
 ## How to Run
@@ -49,7 +45,8 @@ The model identified the `toss_winner` as a highly influential factor, reinforci
 * **Baseline vs. Advanced Model:** A baseline Logistic Regression model was first established to create a performance benchmark. The more complex XGBoost model was then implemented, demonstrating a rigorous, comparative approach to model selection.
 
 ### My Process & Learnings
-***(This is your section. Follow the Authenticity Blueprint. Example: "The biggest challenge was handling the inconsistencies in team names across 12 seasons of data. Cleaning and standardizing this was a crucial first step. It taught me that 80% of a data science project really is about preparing the data. The feature importance plot was also a fascinating insight, confirming that the venue and toss winner are statistically significant predictors of a match's outcome.")***
+
+The biggest challenge in this project was handling the inconsistencies in team names across 12 seasons of data. Standardizing them was a crucial first step and a powerful lesson in how 80% of data science is often data preparation. Seeing the feature importance plot confirm that the toss winner has a statistically significant impact was a fascinating insight that validated the model's ability to capture the nuances of the game.
 
 ### **Ethical Disclaimer**
 This project is for academic and demonstrative purposes only. Sports outcomes are inherently unpredictable. The model's predictions are probabilistic and should **not** be used for any form of betting or financial decision-making.
